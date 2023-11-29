@@ -1,6 +1,7 @@
 .container{
     text-align: center;
     margin:auto;
+    padding:1rem;
 }
 
 .container__card_left{
@@ -16,6 +17,13 @@
     font-size: 1.2rem;
 }
 
+.container__card_left > h2 > span{
+    background-image: linear-gradient(135deg, rgba(98,65,145,1) 29%, rgba(227,100,116,1) 78%);;
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
 .container__card_left > p{
     color: var(--secon-txt-color);
     font-size: .8rem;
@@ -28,7 +36,8 @@
 }
 
 .container__card_left_links > ul > li > a > img{
-    width:1.5rem; 
+    width:1.6rem; 
+    filter: drop-shadow(-2px -1px 1px rgba(98,65,145,1));
     transition:all .3s ease-in-out;
 }
 
@@ -37,6 +46,7 @@
 }
 
 .container__card_right > img{
-   width:10rem;
+   width:13rem;
    border-radius:50%;
+   filter: drop-shadow(2px -2px 3px rgba(98,65,145,1));
 }
