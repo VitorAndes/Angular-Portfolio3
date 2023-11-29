@@ -1,0 +1,33 @@
+.activated{
+    color: rgb(175, 86, 234);
+    border-bottom: 1px solid rgb(175, 86, 234);
+    transition: all .8s ease-in-out;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom:1rem;
+    padding: 2rem;
+}
+
+.container_logo > h1{
+    font-weight: 500;
+}
+
+.container_nav > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li, a{
+    margin-left: .3rem;
+}
+
+a{
+    font-weight: 200;
+    font-size: .7rem;
+}

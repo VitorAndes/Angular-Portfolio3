@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="container_logo">
+        <h1>Andes</h1>
+    </div>
+    <div class="container_nav">
+        <ul>
+            <li>
+                <a 
+                    [routerLink]="['/']"
+                    [routerLinkActive]="['activated']"
+                    [routerLinkActiveOptions]="{exact:true}"
+                    >About
+                </a>
+            </li>
+            <li>
+                <a 
+                    [routerLink]="['/portfolio']"
+                    [routerLinkActive]="['activated']"
+                    [routerLinkActiveOptions]="{exact:true}"
+                    >Portfolio
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
