@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { CardComponent } from './pages/portfolio/card/card.component';
 import { AboutComponent } from './pages/index/about/about.component';
+import { CardSkillsComponent } from './pages/index/card-skills/card-skills.component';
 
 const routes: Routes = [
   {path:'', component:AboutComponent, pathMatch:'full'},

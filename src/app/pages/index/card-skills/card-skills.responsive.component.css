@@ -1,0 +1,13 @@
+@media screen and (min-width:768px){
+    
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .section_skills__card{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+

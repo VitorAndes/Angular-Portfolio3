@@ -21,13 +21,10 @@
 .container_nav > ul{
     display: flex;
     flex-direction: row;
-}
-
-li, a{
-    margin-left: .3rem;
+    gap:10px
 }
 
 a{
-    font-weight: 200;
+    font-weight:200px;
     font-size: .7rem;
 }

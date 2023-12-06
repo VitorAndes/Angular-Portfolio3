@@ -5,6 +5,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 5rem;
+        margin-bottom:14rem;
     }
     
     .container__card_left{
@@ -12,6 +13,4 @@
         align-items: flex-start;
         text-align: start;
     }
-
-
 }
